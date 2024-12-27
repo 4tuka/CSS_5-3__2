@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+main { 
+    display: flex;
+    justify-content: center;
+}
+
+.main_div {
+    width: 100%;
+    display: flex;
+    
+}
+
+.header_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    padding: 12px 28px 708px 28px;
+    background: #E7EEFF;
+}
+
+.gg {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 48px;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background: #E7EEFF;
+    padding: 20px 0px;
+}
+
+
+
+.main_div_class {
+    display: flex;
+    flex-direction: column;
+    max-width: 1144px;
+}
+
+
+.location_cards {
+    display: flex;
+    gap: 30px;
+    height: 80px;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+
+.house_cards {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    padding: 0px 96px;
+    flex-wrap: wrap;
+}
+
+.search {
+    border: none;
+    padding: 8px 12px;
+    background: #E7EEFF;
+}
+
+
+
+::placeholder {
+    color: #000;
+    display: flex;
+    background: #E7EEFF;
+    max-width: 290px;
+    width: 100%;
+}
+
+
+.girl {
+    display: flex;
+    flex-direction: row;
+}
+
+.search_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.ss {
+    width: 24px;
+}
+
+
+.vv {
+    display: flex;
+    flex-direction: column;
+}
+
+.pp {
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    background-color: #E7EEFF;
+    height: 355px;
+    border-radius: 20px;
+}
+
+.pp p{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+}
+
+.al {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+
+
+.hh {
+    color: #606060;
+}
